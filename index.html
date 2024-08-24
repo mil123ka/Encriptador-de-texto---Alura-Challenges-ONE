@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Encriptación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador de Texto</h1>
+        <div class="form-group">
+            <textarea id="input-text" placeholder="Introduce tu texto aquí..."></textarea>
+        </div>
+        <div class="form-group">
+            <label class="radio-label">
+                <input type="radio" name="action" value="encrypt" checked> Encriptar
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="action" value="decrypt"> Desencriptar
+            </label>
+        </div>
+        <div class="form-group">
+            <button id="process-btn" class="btn">Procesar</button>
+        </div>
+        <div class="form-group">
+            <textarea id="output-text" readonly placeholder="Resultado aparecerá aquí..."></textarea>
+        </div>
+        <div class="form-group">
+            <button id="copy-btn" class="btn">Copiar</button>
+        </div>
+    </div>
+    <footer>
+        <p>Desarrollado por Sandra Milena Gutierrez Castaño</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
